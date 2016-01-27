@@ -20,7 +20,7 @@ python -m textblob.download_corpora
 To train a classifier:
 
 ```bash
-python diseases/train.py my_classifier.pickle -p training/positive -n training/negative --positive-sample=100 --negative-sample=200
+python diseases/train.py -o my_classifier.pickle -p training/positive -n training/negative --positive-sample=100 --negative-sample=200
 ```
 
 To use that classifier to classify an HTML file (and name the disease, if it is one):
