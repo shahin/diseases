@@ -23,7 +23,7 @@ To train a classifier:
 python diseases/train.py -o my_classifier.pickle -p training/positive -n training/negative --positive-sample=100 --negative-sample=200
 ```
 
-To use that classifier to classify an HTML file (and name the disease, if it is one):
+To use that classifier on a directory of Wikipedia HTML files:
 
 ```bash
 python diseases/classify.py <path-to-unlabeled-dir> my_classifier.pickle -m
