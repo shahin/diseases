@@ -31,7 +31,7 @@ python diseases/classify.py <path-to-unlabeled-dir> my_classifier.pickle -m
 
 ## Performance
 
-The confusion matrix for the included classifier (nb_2000p_3000n.pickle) is:
+The confusion matrix for the included classifier (classifiers/nb_2000p_3000n.pickle) is:
 
 | True Positives  | False Negatives |
 |-----------------|-----------------|
